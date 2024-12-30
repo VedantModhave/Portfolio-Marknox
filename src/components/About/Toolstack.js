@@ -2,29 +2,29 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
+  SiWindows,
+  SiGithub,
+  SiNetlify,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <SiWindows size={50} />
+        <p className="tech-icon-label">Windows</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode size={50} />
+        <p className="tech-icon-label">VS Code</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiGithub size={50} />
+        <p className="tech-icon-label">GitHub</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiNetlify size={50} />
+        <p className="tech-icon-label">Netlify</p>
       </Col>
     </Row>
   );

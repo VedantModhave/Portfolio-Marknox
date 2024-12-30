@@ -1,68 +1,55 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
+// Import images from the Assets folder
+import pythonImg from "../../Assets/skills/python.png";
+import javaImg from "../../Assets/skills/java.png";
+import htmlImg from "../../Assets/skills/html.png";
+import cssImg from "../../Assets/skills/css.png";
+import javascriptImg from "../../Assets/skills/js.png";
+import reactImg from "../../Assets/skills/react.png";
+import firebaseImg from "../../Assets/skills/firebase.png";
+import powerbiImg from "../../Assets/skills/powerbi.svg";
+import sqlImg from "../../Assets/skills/sql.png";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <img src={pythonImg} alt="Python" className="tech-icon-img" />
+        <p className="tech-icon-label">Python</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <img src={javaImg} alt="Java" className="tech-icon-img" />
+        <p className="tech-icon-label">Java</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <img src={htmlImg} alt="HTML" className="tech-icon-img" />
+        <p className="tech-icon-label">HTML</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <img src={cssImg} alt="CSS" className="tech-icon-img" />
+        <p className="tech-icon-label">CSS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <img src={javascriptImg} alt="JavaScript" className="tech-icon-img" />
+        <p className="tech-icon-label">JavaScript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <img src={reactImg} alt="React" className="tech-icon-img" />
+        <p className="tech-icon-label">React</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <img src={firebaseImg} alt="Firebase" className="tech-icon-img" />
+        <p className="tech-icon-label">Firebase</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <img src={powerbiImg} alt="Power BI" className="tech-icon-img" />
+        <p className="tech-icon-label">Power BI</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <img src={sqlImg} alt="SQL" className="tech-icon-img" />
+        <p className="tech-icon-label">SQL</p>
       </Col>
     </Row>
   );
