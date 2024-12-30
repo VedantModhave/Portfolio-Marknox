@@ -36,7 +36,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand className="d-flex">
           <span
             style={{
               color: "#007bff",
