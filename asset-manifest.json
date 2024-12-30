@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Marknox/static/css/main.c32dc643.css",
-    "main.js": "/Portfolio-Marknox/static/js/main.dbd33e92.js",
+    "main.js": "/Portfolio-Marknox/static/js/main.a5351733.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio-Marknox/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Marknox/static/js/787.1ed0c42c.chunk.js",
     "static/media/ngo.png": "/Portfolio-Marknox/static/media/ngo.25f07e20d8e20c19d524.png",
@@ -21,12 +21,12 @@
     "index.html": "/Portfolio-Marknox/index.html",
     "static/media/pre.svg": "/Portfolio-Marknox/static/media/pre.efbf8ca7fb5bd805762f.svg",
     "main.c32dc643.css.map": "/Portfolio-Marknox/static/css/main.c32dc643.css.map",
-    "main.dbd33e92.js.map": "/Portfolio-Marknox/static/js/main.dbd33e92.js.map",
+    "main.a5351733.js.map": "/Portfolio-Marknox/static/js/main.a5351733.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio-Marknox/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Marknox/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c32dc643.css",
-    "static/js/main.dbd33e92.js"
+    "static/js/main.a5351733.js"
   ]
 }
